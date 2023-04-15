@@ -1,0 +1,60 @@
+body {
+    margin:0;
+}
+.container {
+    width: 70%;
+    overflow: hidden;
+    margin:auto;
+    
+}
+.header {
+    width: 100%;
+    background: linear-gradient(red,blue,yellow);
+    overflow: hidden;
+    height: 500px;
+
+}
+.header .logo {
+    font-family: Pacifico;
+    font-size: 20px;
+    float: left;
+    color: white ;
+    
+    
+}
+.header .navigasi {
+    float: right;
+    margin-top:29px; 
+}
+.header .navigasi li {
+    float: right;
+    margin-left: 20px;
+    display: block; 
+    font-size: 18px;
+}
+.header .navigasi li a {
+    color: rgb(14, 21, 126);
+    text-decoration: none;
+}
+.header .navigasi li a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    
+}
+.kelas-logo {
+    height: 100px;
+    width: 100px;
+    background-color: blue;    
+    border-radius: 50%;
+    float: right;
+    background-image:url('IMAGES/1.PNG');
+    background-size: cover;
+}
+.parent {
+    margin-top: 20px;
+}
+
+
+
+
+
